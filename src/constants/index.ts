@@ -51,129 +51,129 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Penetration Testing",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Vulnerability Assessment",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Network Security",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Social Engineering",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: "Kali Linux",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "Python",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "Metasploit",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Burp Suite",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Wireshark",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Nmap",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "SQL Injection",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "OWASP",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Bash Scripting",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Splunk",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Cobalt Strike",
+    icon: threejs,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Junior Penetration Tester",
+    companyName: "SecureNet Solutions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2019 - April 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted vulnerability assessments and penetration tests on web applications and network infrastructure.",
+      "Performed reconnaissance and enumeration using tools like Nmap, Burp Suite, and Metasploit.",
+      "Documented security findings and provided detailed remediation recommendations to clients.",
+      "Assisted in developing custom exploit scripts and automated security testing frameworks.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Security Analyst",
+    companyName: "CyberShield Corp",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2020 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Monitored security incidents and conducted threat hunting operations using SIEM tools.",
+      "Performed security assessments on cloud infrastructure and containerized applications.",
+      "Developed and implemented security policies and incident response procedures.",
+      "Collaborated with development teams to integrate security best practices into the SDLC.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Red Team Operator",
+    companyName: "Offensive Security Labs",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "April 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led red team operations simulating advanced persistent threats (APT) against enterprise networks.",
+      "Executed social engineering campaigns including phishing and vishing attacks.",
+      "Developed custom malware and evasion techniques to bypass security controls.",
+      "Provided executive-level security briefings and comprehensive assessment reports.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "Senior Red Teamer",
+    companyName: "Cyber-AG",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "January 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading advanced penetration testing engagements for Fortune 500 companies.",
+      "Specializing in Active Directory exploitation, privilege escalation, and lateral movement.",
+      "Mentoring junior security professionals and conducting security awareness training.",
+      "Researching zero-day vulnerabilities and developing proof-of-concept exploits.",
     ],
   },
 ];
@@ -181,46 +181,46 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Walid's red team assessment identified critical vulnerabilities we never knew existed. His thorough approach and detailed reporting helped us significantly improve our security posture.",
+    name: "Sarah Mitchell",
+    designation: "CISO",
+    company: "FinTech Global",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Walid was an eye-opening experience. His penetration testing skills are exceptional, and he provided actionable insights that transformed our security strategy.",
+    name: "Michael Chen",
+    designation: "VP of Security",
+    company: "TechCore Industries",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Walid's expertise in offensive security is unmatched. His ability to think like an attacker helped us strengthen our defenses against real-world threats. Highly recommended!",
+    name: "Jessica Roberts",
+    designation: "Security Director",
+    company: "CyberDefense Corp",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Enterprise Network Penetration Test",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Comprehensive red team engagement against a Fortune 500 company's network infrastructure. Achieved domain admin access through Active Directory exploitation, lateral movement, and privilege escalation techniques.",
     tags: [
       {
-        name: "react",
+        name: "pentesting",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "activedirectory",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "redteam",
         color: "pink-text-gradient",
       },
     ],
@@ -228,20 +228,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Web Application Security Assessment",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full-stack security audit of an e-commerce platform. Identified and exploited SQL injection, XSS, and authentication bypass vulnerabilities. Provided comprehensive remediation guidance and secure coding recommendations.",
     tags: [
       {
-        name: "react",
+        name: "websec",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "owasp",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "burpsuite",
         color: "pink-text-gradient",
       },
     ],
@@ -249,20 +249,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Social Engineering Campaign",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Simulated advanced phishing and vishing attacks to assess organizational security awareness. Achieved 65% success rate, leading to comprehensive security training program and policy improvements.",
     tags: [
       {
-        name: "nextjs",
+        name: "socialeng",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "phishing",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "awareness",
         color: "pink-text-gradient",
       },
     ],

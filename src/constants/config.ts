@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Walid Zitouni — Cyber Security Red Teamer",
+    fullName: "Walid Zitouni",
+    email: "walid@cyber-ag.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Walid Zitouni",
+    p: ["Cyber Security Red Teamer &", "Penetration Testing Specialist"],
   },
   contact: {
     p: "Get in touch",
@@ -67,28 +67,28 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a highly skilled Cyber Security Red Teamer specializing in penetration testing, 
+      vulnerability assessment, and offensive security operations. With extensive experience in 
+      identifying and exploiting security weaknesses, I help organizations strengthen their defenses 
+      through realistic attack simulations. My expertise spans network penetration testing, web application 
+      security, social engineering, and exploit development. I'm passionate about staying ahead of emerging 
+      threats and continuously advancing my skills to protect against sophisticated cyber attacks.`,
     },
     experience: {
-      p: "What I have done so far",
+      p: "My Journey in Cyber Security",
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
+      p: "Client Feedback",
       h2: "Testimonials.",
     },
     works: {
-      p: "My work",
+      p: "Security Engagements",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `The following projects showcase my expertise in cyber security through real-world 
+    penetration testing engagements and security assessments. Each project demonstrates my ability 
+    to identify vulnerabilities, exploit weaknesses, and provide comprehensive remediation guidance. 
+    It reflects my proficiency with various security tools, attack methodologies, and defense strategies.`,
     },
   },
 };
